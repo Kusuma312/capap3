@@ -10,7 +10,8 @@
     "@sap/cds-dk": "^7.5.0",
     "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
     "express": "^4",
-    "sqlite3": "^5.1.7-rc.0"
+    "sqlite3": "^5.1.7-rc.0",
+    "@sap/cds-hana": "^2"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -23,5 +24,10 @@
   },
   "sapux": [
     "app/purchaseorder"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "db": "hana"
+    }
+  }
 }

@@ -68,7 +68,7 @@ annotate service.POs with @(
                 {
                     $Type:'UI.ReferenceFacet',
                     Target:'@UI.FieldGroup#Status',
-                    Label:'PriceInfo'
+                    Label:'Status Info'
                 }
             ]
         },
